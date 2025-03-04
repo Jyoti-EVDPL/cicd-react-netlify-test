@@ -55,3 +55,6 @@ export default tseslint.config({
   },
 })
 ```
+
+
+[![Deploy to Netlify](https://github.com/Jyoti-EVDPL/cicd-react-netlify-test/actions/workflows/netlify-deploy.yml/badge.svg)](https://github.com/Jyoti-EVDPL/cicd-react-netlify-test/actions/workflows/netlify-deploy.yml)
