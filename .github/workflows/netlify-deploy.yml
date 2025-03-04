@@ -8,7 +8,9 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    environment: dev
+    environment:
+      name: production  # Environment Name in GitHub
+      url: https://cicd-react-netlify-test.netlify.app/  # Your deployed site
 
     steps:
       - name: Checkout Repository
